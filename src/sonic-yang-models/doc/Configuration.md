@@ -743,18 +743,15 @@ and value is a list of field-values representing the interface attributes, e.g. 
             "loopback_action": "drop"
         }
     },
-
 "PORTCHANNEL_INTERFACE": {
         "PortChannel01|10.0.0.56/31": {},
         "PortChannel01|FC00::71/126": {},
         "PortChannel02|10.0.0.58/31": {},
         "PortChannel02|FC00::75/126": {}
     },
-
 "VLAN_INTERFACE": {
         "Vlan1000|192.168.0.1/27": {}
     },
-
 "VLAN_SUB_INTERFACE": {
         "Ethernet4.1|10.0.0.2/31": {},
         "Ethernet4.1": {
