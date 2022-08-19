@@ -33,8 +33,8 @@ Table of Contents
          * [Management Interface](#management-interface)  
          * [Management port](#management-port)  
          * [Management VRF](#management-vrf)  
-         * [MAP_PFC_PRIORITY_TO_QUEUE](#map_pfc_priority_to_queue)  
          * [MUX_CABLE](#muxcable)  
+         * [MAP_PFC_PRIORITY_TO_QUEUE](#map_pfc_priority_to_queue)  
          * [NTP Global Configuration](#ntp-global-configuration)  
          * [NTP and SYSLOG servers](#ntp-and-syslog-servers)  
          * [Policer](#policer)   
@@ -743,15 +743,18 @@ and value is a list of field-values representing the interface attributes, e.g. 
             "loopback_action": "drop"
         }
     },
+
 "PORTCHANNEL_INTERFACE": {
         "PortChannel01|10.0.0.56/31": {},
         "PortChannel01|FC00::71/126": {},
         "PortChannel02|10.0.0.58/31": {},
         "PortChannel02|FC00::75/126": {}
     },
+
 "VLAN_INTERFACE": {
         "Vlan1000|192.168.0.1/27": {}
     },
+
 "VLAN_SUB_INTERFACE": {
         "Ethernet4.1|10.0.0.2/31": {},
         "Ethernet4.1": {
@@ -1080,7 +1083,6 @@ The **MUX_CABLE** table is used for dualtor interface configuration. The `cable_
     }
 }
 ```
-
 ### NTP Global Configuration
 
 These configuration options are used to modify the way that
