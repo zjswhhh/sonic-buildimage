@@ -20,14 +20,8 @@ module sonic-mux-linkmgr {
     container sonic-mux-linkmgr {
 
         container MUX_LINKMGR {
-            list LINK_PROBER_LIST  {
-                key "modulename";
 
-                leaf modulename {
-                    type string;
-
-                    description "Linkmgrd submodule to be configured. ";
-                }
+            container LINK_PROBER {
 
                 leaf interval_v4 {
                     type uint32;
