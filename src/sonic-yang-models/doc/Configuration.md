@@ -1164,6 +1164,12 @@ The **MUX_LINKMGR** table is used for dualtor device configuration.
             "use_well_known_mac": "enabled",
             "src_mac": "ToRMac",
             "interval_pck_loss_count_update": "3"
+        },
+        "MUXLOGGER": {
+            "log_verbosity": "debug"
+        },
+        "SERVICE_MGMT": {
+            "kill_radv": "True"
         }
     }
 }
