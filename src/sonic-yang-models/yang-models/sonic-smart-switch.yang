@@ -45,14 +45,6 @@ module sonic-smart-switch {
 		description "Add REMOTE_DPU, VDPU, and DASH_HA_GLOBAL_CONFIG containers";
 	}
 
-	revision 2025-07-20 {
-		description "Add vnet_name to DASH_HA_GLOBAL_CONFIG";
-	}
-
-	revision 2025-08-18 {
-		description "Add midplane_ipv4 to DPU";
-	}
-
 	container sonic-smart-switch {
 
 		container MID_PLANE_BRIDGE {
